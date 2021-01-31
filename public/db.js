@@ -61,7 +61,7 @@ function checkDatabase() {
 				.then((res) => res.json())
 				.then(() => {
 					//If successful, open a transaction on your pending db
-					const transaction = db.transaction(["pending"], "rewrite");
+					const transaction = db.transaction(["pending"], "readwrite");
 
 					//Accessing the pending object store
 					const store = transaction.objectStore("pending");

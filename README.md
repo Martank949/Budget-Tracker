@@ -32,7 +32,7 @@ martinzb949@gmail.com
 
 ## Description of my Project:
 
-# Homework-18
+### Homework-18
 
 Well this is a budget tracker that in theory supposed to display your purchases.
 

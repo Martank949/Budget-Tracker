@@ -10,11 +10,18 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="/style.css" />
     <title>Visual Budget Tracker</title>
   </head>
   <body>
-    <div class="wrapper">
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="display-4">Welcome to your Visual Budget Tracker!</h1>
+        <p class="lead">This is a simple visual budget tracker that allows the user to visually see their spendings over time.</p>
+        <hr class="my-4">
+        <p>This budget tracker changes by dates and dollar amounts.</p>
+      </div>
       <div class="total">
         <div>Your total is: $<span id="total">0</span></div>
       </div>
@@ -22,7 +29,7 @@
       <form>
         <label for="tableName">Transaction Name:</label>
         <input type="text" id="tableName" placeholder="Name" />
-
+<br>
         <label for="tableAmount">Transaction Amount:</label>
         <input type="number" min="0" id="tableAmount" placeholder="Amount" />
 

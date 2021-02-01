@@ -29,13 +29,13 @@ function populateTable() {
 
 	transactions.forEach((transaction) => {
 		//This will create and populate a table row
-		const tableRow = document.createElement("tableRow");
-		tableRow.innerHTML = `
+		const tr = document.createElement("tr");
+		tr.innerHTML = `
 		<td>${transaction.name}</td>
 		<td>${transaction.value}</td>
 		`;
 
-		tableBod.appendChild(tableRow);
+		tableBod.appendChild(tr);
 	});
 }
 
@@ -82,7 +82,7 @@ function populateChart() {
 function sendTransaction(isAdding) {
 	const nameElem = document.querySelector("#tableName");
 	const amountElem = document.querySelector("#tableAmount");
-	const errorElem = document.querySelector("form, .error");
+	const errorElem = document.querySelector("form .error");
 
 	//This will validate the form
 	if (nameElem.value === "" || amountElem.value === "") {

@@ -1,7 +1,5 @@
 # Budget Tracker
 
-## Homework-18
-
 ### This is the link to the GitHub Repo
 
 https://github.com/Martank949/Homework-18
@@ -33,6 +31,8 @@ GitHub page at the following Link: [GitHub](https://github.com/martank949)
 martinzb949@gmail.com
 
 ## Description of my Project:
+
+# Homework-18
 
 Well this is a budget tracker that in theory supposed to display your purchases.
 

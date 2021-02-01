@@ -1,6 +1,6 @@
-# 17 Budget Tracker
+# Budget Tracker
 
-## Homework-17
+## Homework-18
 
 ### This is the link to the GitHub Repo
 

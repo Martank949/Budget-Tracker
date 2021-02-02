@@ -1,4 +1,4 @@
-# Budget Tracker
+# Budget Tracker With Visual Graph
 
 ### This is the link to the GitHub Repo
 
